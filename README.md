@@ -65,10 +65,10 @@ print(df.head())
 
 A DataFrame like:
 
-| id         | profile_url                   | followers | category      |
-|------------|-------------------------------|-----------|----------------|
-| drone_pro  | https://twitter.com/drone_pro | 23500     | Smart Drones   |
-| dji_flyer  | https://twitter.com/dji_flyer | 17200     | Smart Drones   |
+| id           | profile_url                      | followers | category      |
+|--------------|----------------------------------|-----------|----------------|
+| example  | https://twitter.com/example  | 12345     | Sample Topic   |
+| abc_user     | https://twitter.com/abc_user     | 67890     | Sample Topic   |
 
 ### Notes
 
@@ -136,11 +136,11 @@ print(df.head())
 ```
 
 ### 输出格式示例
+| id           | profile_url                      | followers | category      |
+|--------------|----------------------------------|-----------|----------------|
+| example  | https://twitter.com/example  | 12345     | Sample Topic   |
+| abc_user     | https://twitter.com/abc_user     | 67890     | Sample Topic   |
 
-| id         | profile_url                   | followers | category    |
-|------------|-------------------------------|-----------|-------------|
-| drone_pro  | https://twitter.com/drone_pro | 23500     | 智能无人机 |
-| dji_flyer  | https://twitter.com/dji_flyer | 17200     | 智能无人机 |
 
 ### 注意事项
 
