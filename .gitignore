@@ -1,0 +1,11 @@
+# 忽略可执行文件
+*.exe
+
+# 忽略JSON文件
+*.json
+
+# 忽略Jupyter Notebook文件
+*.ipynb
+
+# 忽略Python生成的缓存文件夹
+__pycache__/
